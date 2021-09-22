@@ -3,7 +3,7 @@ const fs = require('fs')
 
 async function main(){
 
-    // Not necessary, but just to see the account deplying from
+    // Not necessary, but just to see the account deploying from
     const [deployer] = await ethers.getSigners()
     console.log("Deploying contracts with the account", deployer.address)
 
